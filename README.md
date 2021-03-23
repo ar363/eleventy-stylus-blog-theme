@@ -2,7 +2,7 @@
 
 A theme repository that contains a blog built with [Eleventy](https://github.com/11ty/eleventy) and [Stylus](https://stylus-lang.com/)
 
-# Features
+## Features
  - 100% Lighthouse scores
  - Tags as taxonomy
  - Stylus CSS preprocessor
@@ -21,13 +21,20 @@ A theme repository that contains a blog built with [Eleventy](https://github.com
 
 ![website homepage screenshot](screenshot.png?raw=true)
 
-## Prerequisites
+## Deploy this template to your own site
+
+Get your site up and running with a few clicks
+
+ - [Deploy oo Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
+ - [Deploy on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+
+## Prerequisites for local development
 [Node.js 12](https://nodejs.org/download/release/latest-v12.x/)
 
 [Yarn](https://yarnpkg.com/) package manager
 
 
-## Getting started
+## Getting started locally
 
 1. Clone this repo
 ```
