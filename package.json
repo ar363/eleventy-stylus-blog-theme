@@ -1,0 +1,22 @@
+{
+  "name": "11ty-purple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "concurrently": "^6.0.0",
+    "luxon": "^1.26.0",
+    "stylus": "^0.54.8"
+  },
+  "scripts": {
+    "build:stylus": "stylus --compress ./stylus/ --out ./static/css/",
+    "watch:stylus": "stylus --watch ./stylus/ --out ./static/css/",
+    "build:11ty": "eleventy",
+    "watch:11ty": "eleventy --serve",
+    "build": "yarn build:stylus && yarn build:11ty",
+    "dev": "concurrently -n stylus,11ty \"yarn watch:stylus\" \"yarn watch:11ty\""
+  }
+}

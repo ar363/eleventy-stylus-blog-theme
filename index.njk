@@ -1,0 +1,48 @@
+---
+eleventyComputed:
+  title: "{% if pagination.pageNumber > 0 %}Page {{ pagination.pageNumber + 1 }}{% else %}Homepage{% endif %}"
+layout: layouts/base.njk
+permalink: /{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}
+pagination:
+  data: collections.post
+  size: 6
+  alias: posts
+  reverse: true
+eleventyNavigation:
+  key: Home
+  weight: 0
+---
+
+<div class="container">
+  <div class="hero">
+    <h1>
+      {% if site.hero.title %}
+        {% if pagination.pageNumber != 0 %}Page {{ pagination.pageNumber + 1 }} | {% endif %}
+        {{ site.hero.title }}
+      {% else %}
+        {{ site.meta.title }}
+      {% endif %}
+    </h1>
+    <p class="hero__description">
+      {% if site.hero.description %}
+        {{ site.hero.description }}
+      {% else %}
+        {{ site.meta.description }}
+      {% endif %}
+    </p>
+  </div>
+
+  <h2 class="section-title">
+    Latest Posts
+    {%- if pagination.pageNumber != 0 %} - Page {{ pagination.pageNumber + 1 }}{% endif %}
+  </h2>
+  {% include "components/postslist.njk" %}
+  <div class="pagination">
+      {% if pagination.previous %}
+        <a href="{{ pagination.href.previous | url }}" class="pagination__prev">&larr; Prev Page</a>
+      {% endif %}
+      {% if pagination.next %}
+        <a href="{{ pagination.href.next | url }}" class="pagination__next">Next Page &rarr;</a>
+      {% endif %}
+  </div>
+</div>

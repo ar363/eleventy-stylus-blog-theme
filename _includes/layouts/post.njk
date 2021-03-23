@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="container-sm">
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
+
+  <br><hr>
+  {% if not hideTagsList %}
+    <b>Tags: </b>
+    {% for tag in tags %}
+      {% if tag != 'post' %}
+        <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
+        {%- if not loop.last %}, {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  <br><br>
+  <a href="/">&larr; Back home</a>
+</div>

@@ -1,0 +1,33 @@
+.card-grid
+  display grid
+  grid-auto-rows auto
+  grid-template-columns repeat(auto-fill, minmax(320px, 1fr))
+  gap 1rem
+
+.card
+  padding 1rem
+  border-radius default_radius
+  box-shadow:
+    0 0 0 1px rgba(0 0 0 0.08)\,
+    0 2px 2px rgba(0 0 0 0.08)\,
+    0 4px 4px rgba(0 0 0 0.08)\,
+    0 6px 6px rgba(0 0 0 0.08)
+
+
+  &__title
+    text_scale_size 2
+    margin-top 0
+    margin-bottom 0.1rem
+  
+  &__date
+    margin-top 0
+    color lighten(text_color, 20%)
+    text_scale_size -1
+  
+  &__description
+    margin 0
+
+  &__subtitle
+    margin-top 0.5rem
+    margin-bottom 0.1rem
+    font-weight 600

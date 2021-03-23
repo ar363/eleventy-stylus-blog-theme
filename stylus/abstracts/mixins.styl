@@ -1,0 +1,5 @@
+text_scale_size(exponent)
+  font-size (round(mobile_text_scale ** exponent * 1000) / 1000)
+
+  @media screen and (min-width breakpoints.sm)
+    font-size (round(desktop_text_scale ** exponent * 1000) / 1000)
