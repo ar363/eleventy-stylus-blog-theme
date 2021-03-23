@@ -27,7 +27,7 @@ A theme repository that contains a blog built with [Eleventy](https://github.com
 
 Get your site up and running with a few clicks
 
- - [Deploy oo Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
+ - [Deploy on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
  - [Deploy on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
 
 ## Prerequisites for local development
