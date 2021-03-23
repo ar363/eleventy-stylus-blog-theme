@@ -18,7 +18,7 @@ TBD
 
 ## Screenshot
 
-![screenshot.png](website homepage screenshot)
+![website homepage screenshot](screenshot.png?raw=true)
 
 ## Prerequisites
 [Node.js 12](https://nodejs.org/download/release/latest-v12.x/)
