@@ -1,5 +1,7 @@
 # Eleventy + Stylus Blog theme
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a180e099-11d2-49d4-9697-910d56980343/deploy-status)](https://app.netlify.com/sites/eleventy-stylus-blog-theme/deploys)
+
 A theme repository that contains a blog built with [Eleventy](https://github.com/11ty/eleventy) and [Stylus](https://stylus-lang.com/)
 
 ## Features
