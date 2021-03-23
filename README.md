@@ -22,6 +22,7 @@ TBD
 
 ## Prerequisites
 [Node.js 12](https://nodejs.org/download/release/latest-v12.x/)
+
 [Yarn](https://yarnpkg.com/) package manager
 
 
