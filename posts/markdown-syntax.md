@@ -9,7 +9,7 @@ tags:
  - html
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+This article offers a sample of basic Markdown syntax that can be used in Eleventy content files, also it shows whether basic HTML elements are decorated with CSS in a Eleventy theme.
 <!--more-->
 
 ## Headings
@@ -47,7 +47,7 @@ The blockquote element represents content that is quoted from another source, op
 
 ## Tables
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+Tables aren't part of the core Markdown spec, but Eleventy supports supports them out-of-the-box.
 
    Name | Age
 --------|------
