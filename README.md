@@ -36,7 +36,7 @@ Get your site up and running with a few clicks
  - [Deploy on Vercel](https://vercel.com/import/project?template=ar363%2Feleventy-stylus-blog-theme)
 
 ## Prerequisites for local development
-[Node.js LTS](https://nodejs.org/en/)
+[Node.js 8 or above](https://nodejs.org/en/)
 
 [Yarn](https://yarnpkg.com/) package manager
 
