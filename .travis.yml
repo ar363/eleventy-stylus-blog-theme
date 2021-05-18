@@ -12,4 +12,4 @@ deploy:
   keep-history: true
   target_branch: main
   on:
-    branch: master
+    branch: gh-pages
