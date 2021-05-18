@@ -125,8 +125,9 @@ hr {
 @media screen and (min-width: 640px) {
   .navbar__links {
     display: flex;
-    margin: 0.75rem 0;
-    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.25rem;
   }
 }
 .navbar__mobile-links {
@@ -149,7 +150,16 @@ hr {
 .navbar__mobile-link:hover {
   background-color: #f2f2f2;
 }
-.navbar__hamburger {
+.navbar__mobile-options {
+  display: flex;
+  gap: 0.25rem;
+}
+@media screen and (min-width: 640px) {
+  .navbar__mobile-options {
+    display: none;
+  }
+}
+.navbar__button {
   display: block;
   line-height: 0;
   padding: 0.75rem;
@@ -157,20 +167,16 @@ hr {
   border: none;
   border-radius: 0.25rem;
 }
-.navbar__hamburger:hover {
+.navbar__button:hover {
   background-color: #f2f2f2;
 }
-@media screen and (min-width: 640px) {
-  .navbar__hamburger {
-    display: none;
-  }
-}
-.navbar__logo,
 .navbar__link {
   display: inline-block;
-  border-radius: 0.25rem;
+  padding: 0.75rem;
 }
 .navbar__logo {
+  display: inline-block;
+  border-radius: 0.25rem;
   font-weight: bold;
 }
 .section-title {
@@ -187,7 +193,7 @@ hr {
   display: grid;
   grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .card {
   padding: 1rem;

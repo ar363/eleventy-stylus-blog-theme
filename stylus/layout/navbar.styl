@@ -15,8 +15,9 @@
 
     @media screen and (min-width breakpoints.sm)
       display flex
-      margin 0.75rem 0
-      gap 2rem
+      align-items center
+      justify-content space-between
+      gap 0.25rem
 
   &__mobile-links
     display none
@@ -36,7 +37,14 @@
     &:hover
       background-color darken(bg_color, 5%)
 
-  &__hamburger
+  &__mobile-options
+    display flex
+    gap 0.25rem
+
+    @media screen and (min-width breakpoints.sm)
+      display none
+
+  &__button
     display block
     line-height 0 // fixes issue with extra space in the bottom of the icon
     padding 0.75rem
@@ -47,12 +55,11 @@
     &:hover
       background-color darken(bg_color, 5%)
 
-    @media screen and (min-width breakpoints.sm)
-      display none
-
-  &__logo, &__link
+  &__link
     display inline-block
-    border-radius default_radius
+    padding 0.75rem
 
   &__logo
+    display inline-block
+    border-radius default_radius
     font-weight bold
