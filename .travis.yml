@@ -3,7 +3,7 @@ node_js:
   - 14
 before_script:
   - yarn
-script: eleventy --pathprefix="/eleventy-stylus-blog-theme/" && yarn watch:stylus
+script: eleventy --pathprefix="/eleventy-stylus-blog-theme/" && yarn build:stylus
 deploy:
   local-dir: _site
   provider: pages
