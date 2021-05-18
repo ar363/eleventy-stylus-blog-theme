@@ -87,17 +87,17 @@
   </url>
   
   <url>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/another-tag/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/eleventy-stylus-blog-theme/tags/second/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/eleventy-stylus-blog-theme/tags/wow/</loc>
-    <lastmod>2021-05-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-stylus-blog-theme/tags/another-tag/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
