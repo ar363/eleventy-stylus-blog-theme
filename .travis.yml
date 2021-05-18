@@ -10,6 +10,6 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  
   keep-history: true
-  target_branch: gh-pages
+  target_branch: master
   on:
-    branch: master
+    branch: gh-pages
