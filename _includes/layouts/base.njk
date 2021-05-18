@@ -18,11 +18,42 @@
   <script>
     const ham = document.querySelector('.navbar__hamburger')
     const menu = document.querySelector('.navbar__mobile-links')
+    const darkToggleButtons = document.querySelectorAll('.dark-toggle')
+
+    function changeDarkToggleBtnIcon () {
+      darkToggleButtons.forEach(btn => {
+        if (btn.querySelector('img').src.indexOf('/static/img/moon.svg') !== -1) {
+          btn.querySelector('img').src = '/static/img/sun.svg'
+        } else {
+          btn.querySelector('img').src = '/static/img/moon.svg'
+        }
+      })
+    }
+
+    if (localStorage.prefsDark === 'true') {
+      document.body.classList.add('dark')
+    }
+
     ham.addEventListener('click', () => {
       menu.classList.toggle('navbar__mobile-links--open')
 
       let prevState = JSON.parse(ham.getAttribute('aria-expanded'))
       ham.setAttribute('aria-expanded', !prevState)
+    })
+
+    darkToggleButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        changeDarkToggleBtnIcon()
+
+        if (document.body.classList.contains('dark')) {
+          document.body.classList.remove('dark')
+          localStorage.prefsDark = 'false'
+        } else {
+          document.body.classList.add('dark')
+          localStorage.prefsDark = 'true'
+        }
+
+      })
     })
   </script>
 </body>
