@@ -6,8 +6,8 @@
   <title>{% if title %}{{ title }} | {{ site.meta.title }}{% else %}{{ site.meta.title }}{% endif %}</title>
   <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.meta.description }}{% endif %}">
 
-  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="/static/css/main.css" media="all">
+  <link rel="shortcut icon" href="{{ '/static/img/favicon.ico' | url }}" type="image/x-icon">
+  <link rel="stylesheet" href="{{ '/static/css/main.css' | url }}" media="all">
 
 </head>
 <body>
