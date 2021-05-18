@@ -6,6 +6,7 @@ A theme repository that contains a blog built with [Eleventy](https://github.com
 
 ## Features
  - 100% Lighthouse scores
+ - Toggleable dark theme
  - Tags as taxonomy
  - Stylus CSS preprocessor
  - Integrated with Eleventy's official [navigation plugin](https://www.11ty.dev/docs/plugins/navigation/)
@@ -19,9 +20,13 @@ A theme repository that contains a blog built with [Eleventy](https://github.com
  - Vercel: https://eleventy-stylus-blog-theme.vercel.app/
  - Netlify: https://eleventy-stylus-blog-theme.netlify.app/
 
-## Screenshot
+## Screenshots
 
-![website homepage screenshot](screenshot.png?raw=true)
+Light theme
+![light theme website homepage screenshot](screenshot.png?raw=true)
+
+Dark theme
+![dark theme website homepage screenshot](screenshot-dark.png?raw=true)
 
 ## Deploy this template to your own site
 
