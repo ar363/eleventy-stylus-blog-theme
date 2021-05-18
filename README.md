@@ -32,8 +32,8 @@ Dark theme
 
 Get your site up and running with a few clicks
 
- - [Deploy on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
- - [Deploy on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+ - [Deploy on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/ar363/eleventy-stylus-blog-theme)
+ - [Deploy on Vercel](https://vercel.com/import/project?template=ar363%2Feleventy-stylus-blog-theme)
 
 ## Prerequisites for local development
 [Node.js 12](https://nodejs.org/download/release/latest-v12.x/)
