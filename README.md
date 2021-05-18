@@ -1,6 +1,7 @@
 # Eleventy + Stylus Blog theme
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a180e099-11d2-49d4-9697-910d56980343/deploy-status)](https://app.netlify.com/sites/eleventy-stylus-blog-theme/deploys)
+[![Build Status](https://travis-ci.com/ar363/eleventy-stylus-blog-theme.svg?branch=main)](https://travis-ci.com/ar363/eleventy-stylus-blog-theme)
 
 A theme repository that contains a blog built with [Eleventy](https://github.com/11ty/eleventy) and [Stylus](https://stylus-lang.com/)
 
@@ -19,6 +20,7 @@ A theme repository that contains a blog built with [Eleventy](https://github.com
 
  - Vercel: https://eleventy-stylus-blog-theme.vercel.app/
  - Netlify: https://eleventy-stylus-blog-theme.netlify.app/
+ - Github Pages: https://ar363.github.io/eleventy-stylus-blog-theme/
 
 ## Screenshots
 
