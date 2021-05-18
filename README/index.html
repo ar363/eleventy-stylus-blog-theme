@@ -1,0 +1,60 @@
+<h1>Eleventy + Stylus Blog theme</h1>
+<p><a href="https://app.netlify.com/sites/eleventy-stylus-blog-theme/deploys"><img src="https://api.netlify.com/api/v1/badges/a180e099-11d2-49d4-9697-910d56980343/deploy-status" alt="Netlify Status"></a></p>
+<p>A theme repository that contains a blog built with <a href="https://github.com/11ty/eleventy">Eleventy</a> and <a href="https://stylus-lang.com/">Stylus</a></p>
+<h2>Features</h2>
+<ul>
+<li>100% Lighthouse scores</li>
+<li>Toggleable dark theme (PS. theme preference is also stored in <code>localStorage</code>)</li>
+<li>Tags as taxonomy</li>
+<li>Stylus CSS preprocessor</li>
+<li>Integrated with Eleventy's official <a href="https://www.11ty.dev/docs/plugins/navigation/">navigation plugin</a></li>
+<li>Also generates Atom RSS Feed with Eleventy's official <a href="https://www.11ty.dev/docs/plugins/rss/">RSS plugin</a></li>
+<li>Sitemap generation</li>
+<li>Non-post pages support (eg. About page, Contact page)</li>
+<li>Modular type scale implemented in with Stylus</li>
+</ul>
+<h2>Demos</h2>
+<ul>
+<li>Vercel: https://eleventy-stylus-blog-theme.vercel.app/</li>
+<li>Netlify: https://eleventy-stylus-blog-theme.netlify.app/</li>
+</ul>
+<h2>Screenshots</h2>
+<p>Light theme
+<img src="screenshot.png?raw=true" alt="light theme website homepage screenshot"></p>
+<p>Dark theme
+<img src="screenshot-dark.png?raw=true" alt="dark theme website homepage screenshot"></p>
+<h2>Deploy this template to your own site</h2>
+<p>Get your site up and running with a few clicks</p>
+<ul>
+<li><a href="https://app.netlify.com/start/deploy?repository=https://github.com/ar363/eleventy-stylus-blog-theme">Deploy on Netlify</a></li>
+<li><a href="https://vercel.com/import/project?template=ar363%2Feleventy-stylus-blog-theme">Deploy on Vercel</a></li>
+</ul>
+<h2>Prerequisites for local development</h2>
+<p><a href="https://nodejs.org/en/">Node.js 8 or above</a></p>
+<p><a href="https://yarnpkg.com/">Yarn</a> package manager</p>
+<h2>Getting started locally</h2>
+<ol>
+<li>Clone this repo</li>
+</ol>
+<pre><code>git clone https://github.com/ar363/eleventy-stylus-blog-theme my-blog
+</code></pre>
+<ol start="2">
+<li>Navigate to the blog directory</li>
+</ol>
+<pre><code>cd my-blog
+</code></pre>
+<ol start="3">
+<li>Install dependencies with <a href="https://yarnpkg.com/">yarn</a></li>
+</ol>
+<pre><code>yarn
+</code></pre>
+<ol start="4">
+<li>
+<p>Edit <code>_data/site.js</code> according to your site preferences</p>
+</li>
+<li>
+<p>Also optionally modify <code>stylus/abstracts/variables.styl</code> according to your preference</p>
+</li>
+</ol>
+<p>To watch for changes in Eleventy and Stylus, use <code>yarn dev</code></p>
+<p>To build without watching for changes, use <code>yarn build</code></p>

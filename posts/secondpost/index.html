@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My very second post | My Purple Blog</title>
+  <meta name="description" content="Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/static/css/main.css" media="all">
+
+</head>
+<body>
+  
+<nav class="navbar">
+  <div class="navbar__inner">
+    <a class="navbar__logo" href="/">My Purple Blog</a>
+
+    <div class="navbar__mobile-options">
+      <div class="navbar__button dark-toggle" aria-label="toggle dark theme">
+        <img src="/static/img/moon.svg" alt="">
+      </div>
+      <button class="navbar__button navbar__hamburger" aria-expanded="false" aria-label="toggle menu">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#333333">
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="navbar__links">
+      
+        <a class="navbar__link " href="/">
+          Home
+        </a>
+        <a class="navbar__link " href="/pages/about/">
+          About
+        </a>
+        <a class="navbar__link " href="/tags/">
+          Tags
+        </a>
+
+      <div class="navbar__button dark-toggle" aria-label="toggle dark theme">
+        <img src="/static/img/moon.svg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="navbar__mobile-links">
+    
+      <a class="navbar__mobile-link " href="/">
+        Home
+      </a>
+      <a class="navbar__mobile-link " href="/pages/about/">
+        About
+      </a>
+      <a class="navbar__mobile-link " href="/tags/">
+        Tags
+      </a>
+  </div>
+
+</nav>
+  
+<div class="container-sm">
+  <h1>My very second post</h1>
+  <p>hello</p>
+<h2>wow nice h2 there</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, minima voluptates maxime quaerat qui, cumque temporibus libero nesciunt explicabo quasi eos, fugit voluptatem impedit expedita! Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam excepturi soluta ipsa aspernatur optio eveniet corporis sunt eaque beatae assumenda a ullam aliquid ad.</p>
+<p>Reprehenderit officia labore debitis quae neque fugiat iste sed, maiores nisi eligendi consequatur nesciunt possimus rem earum quidem inventore architecto praesentium, cum maxime, quaerat ipsam? Ea molestiae consequatur mollitia tempore expedita alias dicta quam tenetur vitae dolor magnam velit quod quisquam explicabo illo, ab eaque molestias reiciendis repellat fugiat culpa optio a earum nisi.</p>
+<h3>Vero corporis ipsa facere tenetur explicabo</h3>
+<p>totam expedita delectus reprehenderit est eum. Eius, tenetur praesentium tempore dicta culpa labore sit hic similique at nesciunt temporibus perspiciatis aliquid dolorem esse voluptatem quis, cupiditate, aspernatur illo ipsam.</p>
+<h4>Deleniti provident nobis</h4>
+<p>maxime, qui molestias ex recusandae, magni consectetur iure nostrum sequi suscipit harum corrupti autem consequuntur animi veritatis? Eos laudantium quod beatae repudiandae accusamus fuga, adipisci tenetur odio nihil commodi optio ipsam voluptates quam esse reiciendis!</p>
+<p>Eligendi inventore nesciunt veritatis mollitia cum! Veniam placeat saepe iure ab eius, ipsa quisquam voluptas quod ad libero ipsum vel officiis ullam eum.</p>
+
+
+  <br><hr>
+  
+    <b>Tags: </b>
+    
+      
+    
+      
+        <a href="/tags/hello">hello</a>, 
+      
+    
+      
+        <a href="/tags/second">second</a>, 
+      
+    
+      
+        <a href="/tags/wow">wow</a>
+      
+    
+  
+  <br><br>
+  <a href="/">&larr; Back home</a>
+</div>
+
+  <footer class="footer">
+  &copy; 2021 - My Purple Blog
+</footer>
+
+  <script>
+    const ham = document.querySelector('.navbar__hamburger')
+    const menu = document.querySelector('.navbar__mobile-links')
+    const darkToggleButtons = document.querySelectorAll('.dark-toggle')
+
+    function changeDarkToggleBtnIcon () {
+      darkToggleButtons.forEach(btn => {
+        if (btn.querySelector('img').src.indexOf('/static/img/moon.svg') !== -1) {
+          btn.querySelector('img').src = '/static/img/sun.svg'
+        } else {
+          btn.querySelector('img').src = '/static/img/moon.svg'
+        }
+      })
+    }
+
+    if (localStorage.prefsDark === 'true') {
+      document.body.classList.add('dark')
+      changeDarkToggleBtnIcon()
+    }
+
+    ham.addEventListener('click', () => {
+      menu.classList.toggle('navbar__mobile-links--open')
+
+      let prevState = JSON.parse(ham.getAttribute('aria-expanded'))
+      ham.setAttribute('aria-expanded', !prevState)
+    })
+
+    darkToggleButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        changeDarkToggleBtnIcon()
+
+        if (document.body.classList.contains('dark')) {
+          document.body.classList.remove('dark')
+          localStorage.prefsDark = 'false'
+        } else {
+          document.body.classList.add('dark')
+          localStorage.prefsDark = 'true'
+        }
+
+      })
+    })
+  </script>
+</body>
+</html>

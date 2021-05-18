@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Syntax Guide | My Purple Blog</title>
+  <meta name="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements.">
+
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/static/css/main.css" media="all">
+
+</head>
+<body>
+  
+<nav class="navbar">
+  <div class="navbar__inner">
+    <a class="navbar__logo" href="/">My Purple Blog</a>
+
+    <div class="navbar__mobile-options">
+      <div class="navbar__button dark-toggle" aria-label="toggle dark theme">
+        <img src="/static/img/moon.svg" alt="">
+      </div>
+      <button class="navbar__button navbar__hamburger" aria-expanded="false" aria-label="toggle menu">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#333333">
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="navbar__links">
+      
+        <a class="navbar__link " href="/">
+          Home
+        </a>
+        <a class="navbar__link " href="/pages/about/">
+          About
+        </a>
+        <a class="navbar__link " href="/tags/">
+          Tags
+        </a>
+
+      <div class="navbar__button dark-toggle" aria-label="toggle dark theme">
+        <img src="/static/img/moon.svg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="navbar__mobile-links">
+    
+      <a class="navbar__mobile-link " href="/">
+        Home
+      </a>
+      <a class="navbar__mobile-link " href="/pages/about/">
+        About
+      </a>
+      <a class="navbar__mobile-link " href="/tags/">
+        Tags
+      </a>
+  </div>
+
+</nav>
+  
+<div class="container-sm">
+  <h1>Markdown Syntax Guide</h1>
+  <p>This article offers a sample of basic Markdown syntax that can be used in Eleventy content files, also it shows whether basic HTML elements are decorated with CSS in a Eleventy theme.</p>
+<!--more-->
+<h2>Headings</h2>
+<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
+<h1>H1</h1>
+<h2>H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+<h5>H5</h5>
+<h6>H6</h6>
+<h2>Paragraph</h2>
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
+<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+<h2>Blockquotes</h2>
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+<h4>Blockquote without attribution</h4>
+<blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+<h4>Blockquote with attribution</h4>
+<blockquote>
+<p>Don't communicate by sharing memory, share memory by communicating.<br>
+— <cite>Rob Pike[^1]</cite></p>
+</blockquote>
+<p>[^1]: The above quote is excerpted from Rob Pike's <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.</p>
+<h2>Code Blocks</h2>
+<h4>Code block with backticks</h4>
+<pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h4>Code block indented with four spaces</h4>
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h2>List Types</h2>
+<h4>Ordered List</h4>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h4>Unordered List</h4>
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h4>Nested list</h4>
+<ul>
+<li>Fruit
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ul>
+</li>
+<li>Dairy
+<ul>
+<li>Milk</li>
+<li>Cheese</li>
+</ul>
+</li>
+</ul>
+<h2>Other Elements — abbr, sub, sup, kbd, mark</h2>
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<p>H<sub>2</sub>O</p>
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
+<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+
+
+  <br><hr>
+  
+    <b>Tags: </b>
+    
+      
+    
+      
+        <a href="/tags/markdown">markdown</a>, 
+      
+    
+      
+        <a href="/tags/css">css</a>, 
+      
+    
+      
+        <a href="/tags/html">html</a>
+      
+    
+  
+  <br><br>
+  <a href="/">&larr; Back home</a>
+</div>
+
+  <footer class="footer">
+  &copy; 2021 - My Purple Blog
+</footer>
+
+  <script>
+    const ham = document.querySelector('.navbar__hamburger')
+    const menu = document.querySelector('.navbar__mobile-links')
+    const darkToggleButtons = document.querySelectorAll('.dark-toggle')
+
+    function changeDarkToggleBtnIcon () {
+      darkToggleButtons.forEach(btn => {
+        if (btn.querySelector('img').src.indexOf('/static/img/moon.svg') !== -1) {
+          btn.querySelector('img').src = '/static/img/sun.svg'
+        } else {
+          btn.querySelector('img').src = '/static/img/moon.svg'
+        }
+      })
+    }
+
+    if (localStorage.prefsDark === 'true') {
+      document.body.classList.add('dark')
+      changeDarkToggleBtnIcon()
+    }
+
+    ham.addEventListener('click', () => {
+      menu.classList.toggle('navbar__mobile-links--open')
+
+      let prevState = JSON.parse(ham.getAttribute('aria-expanded'))
+      ham.setAttribute('aria-expanded', !prevState)
+    })
+
+    darkToggleButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        changeDarkToggleBtnIcon()
+
+        if (document.body.classList.contains('dark')) {
+          document.body.classList.remove('dark')
+          localStorage.prefsDark = 'false'
+        } else {
+          document.body.classList.add('dark')
+          localStorage.prefsDark = 'true'
+        }
+
+      })
+    })
+  </script>
+</body>
+</html>

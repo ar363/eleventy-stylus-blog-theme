@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>My Purple Blog</title>
+	<subtitle>Lorem ipsum dolor sit amet consecuteor</subtitle>
+	
+	<link href="/atom.xml" rel="self"/>
+	<link href=""/>
+	<updated>2021-05-18T16:25:49Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>John Doe</name>
+		<email>johndoe@example.com</email>
+	</author>
+	
+	<entry>
+		<title>Markdown Syntax Guide 2</title>
+		<link href="/posts/markdown-syntax-two/"/>
+		<updated>2021-03-24T00:00:00Z</updated>
+		<id>/posts/markdown-syntax-two/</id>
+		<content type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Eleventy content files, also it shows whether basic HTML elements are decorated with CSS in a Eleventy theme.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1&gt;H1&lt;/h1&gt;
+&lt;h2&gt;H2&lt;/h2&gt;
+&lt;h3&gt;H3&lt;/h3&gt;
+&lt;h4&gt;H4&lt;/h4&gt;
+&lt;h5&gt;H5&lt;/h5&gt;
+&lt;h6&gt;H6&lt;/h6&gt;
+&lt;h2&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2&gt;Image&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://picsum.photos/480/320&quot; alt=&quot;placeholder image&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Blockquotes&lt;/h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4&gt;Blockquote without attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&#39;t communicate by sharing memory, share memory by communicating.&lt;br /&gt;
+— &lt;cite&gt;Rob Pike[^1]&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^1]: The above quote is excerpted from Rob Pike&#39;s &lt;a href=&quot;https://www.youtube.com/watch?v=PAAkCSZUG1c&quot;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&lt;/p&gt;
+&lt;h2&gt;Code Blocks&lt;/h2&gt;
+&lt;h4&gt;Code block with backticks&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Code block indented with four spaces&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;List Types&lt;/h2&gt;
+&lt;h4&gt;Ordered List&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Unordered List&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Nested list&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
+&lt;p&gt;&lt;abbr title=&quot;Graphics Interchange Format&quot;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my sixth post.</title>
+		<link href="/posts/sixthpost/"/>
+		<updated>2021-03-22T00:00:00Z</updated>
+		<id>/posts/sixthpost/</id>
+		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;h2&gt;Section Header&lt;/h2&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Another Placeholder Post</title>
+		<link href="/posts/another-placeholder-post/"/>
+		<updated>2021-03-20T00:00:00Z</updated>
+		<id>/posts/another-placeholder-post/</id>
+		<content type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more--&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
+&lt;li&gt;Duce pollice&lt;/li&gt;
+&lt;li&gt;Eris modo&lt;/li&gt;
+&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Comas hunc haec pietate fetum procerum dixit&lt;/li&gt;
+&lt;li&gt;Post torum vates letum Tiresia&lt;/li&gt;
+&lt;li&gt;Flumen querellas&lt;/li&gt;
+&lt;li&gt;Arcanaque montibus omnes&lt;/li&gt;
+&lt;li&gt;Quidem et&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Vagus elidunt&lt;/h1&gt;
+&lt;p&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; overflow=&quot;visible&quot; viewBox=&quot;0 0 496 373&quot; height=&quot;373&quot; width=&quot;496&quot;&gt;&lt;g fill=&quot;none&quot;&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515&quot;&gt;&lt;/path&gt;&lt;path stroke=&quot;#ED1C24&quot; stroke-width=&quot;.75&quot; d=&quot;M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z&quot;&gt;&lt;/path&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.479.375h495v372h-495zM247.979.875v372&quot;&gt;&lt;/path&gt;&lt;ellipse cx=&quot;498.729&quot; cy=&quot;177.625&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;/ellipse&gt;&lt;ellipse cx=&quot;247.229&quot; cy=&quot;377.375&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;/ellipse&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon&quot;&gt;The Van de Graaf Canon&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Mane refeci capiebant unda mulcebat&lt;/h2&gt;
+&lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong&gt;Faces illo pepulere&lt;/strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p&gt;
+&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p&gt;
+&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;/strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;/em&gt; non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Placeholder Text</title>
+		<link href="/posts/placeholder-text/"/>
+		<updated>2021-03-19T00:00:00Z</updated>
+		<id>/posts/placeholder-text/</id>
+		<content type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more--&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
+&lt;li&gt;Duce pollice&lt;/li&gt;
+&lt;li&gt;Eris modo&lt;/li&gt;
+&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Comas hunc haec pietate fetum procerum dixit&lt;/li&gt;
+&lt;li&gt;Post torum vates letum Tiresia&lt;/li&gt;
+&lt;li&gt;Flumen querellas&lt;/li&gt;
+&lt;li&gt;Arcanaque montibus omnes&lt;/li&gt;
+&lt;li&gt;Quidem et&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Vagus elidunt&lt;/h1&gt;
+&lt;p&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; overflow=&quot;visible&quot; viewBox=&quot;0 0 496 373&quot; height=&quot;373&quot; width=&quot;496&quot;&gt;&lt;g fill=&quot;none&quot;&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515&quot;&gt;&lt;/path&gt;&lt;path stroke=&quot;#ED1C24&quot; stroke-width=&quot;.75&quot; d=&quot;M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z&quot;&gt;&lt;/path&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.479.375h495v372h-495zM247.979.875v372&quot;&gt;&lt;/path&gt;&lt;ellipse cx=&quot;498.729&quot; cy=&quot;177.625&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;/ellipse&gt;&lt;ellipse cx=&quot;247.229&quot; cy=&quot;377.375&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;/ellipse&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon&quot;&gt;The Van de Graaf Canon&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Mane refeci capiebant unda mulcebat&lt;/h2&gt;
+&lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong&gt;Faces illo pepulere&lt;/strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p&gt;
+&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p&gt;
+&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;/strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;/em&gt; non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Markdown Syntax Guide</title>
+		<link href="/posts/markdown-syntax/"/>
+		<updated>2021-03-16T00:00:00Z</updated>
+		<id>/posts/markdown-syntax/</id>
+		<content type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Eleventy content files, also it shows whether basic HTML elements are decorated with CSS in a Eleventy theme.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1&gt;H1&lt;/h1&gt;
+&lt;h2&gt;H2&lt;/h2&gt;
+&lt;h3&gt;H3&lt;/h3&gt;
+&lt;h4&gt;H4&lt;/h4&gt;
+&lt;h5&gt;H5&lt;/h5&gt;
+&lt;h6&gt;H6&lt;/h6&gt;
+&lt;h2&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2&gt;Blockquotes&lt;/h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4&gt;Blockquote without attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&#39;t communicate by sharing memory, share memory by communicating.&lt;br /&gt;
+— &lt;cite&gt;Rob Pike[^1]&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^1]: The above quote is excerpted from Rob Pike&#39;s &lt;a href=&quot;https://www.youtube.com/watch?v=PAAkCSZUG1c&quot;&gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&lt;/p&gt;
+&lt;h2&gt;Code Blocks&lt;/h2&gt;
+&lt;h4&gt;Code block with backticks&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Code block indented with four spaces&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;List Types&lt;/h2&gt;
+&lt;h4&gt;Ordered List&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Unordered List&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Nested list&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
+&lt;p&gt;&lt;abbr title=&quot;Graphics Interchange Format&quot;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My very second post</title>
+		<link href="/posts/secondpost/"/>
+		<updated>2021-03-10T00:00:00Z</updated>
+		<id>/posts/secondpost/</id>
+		<content type="html">&lt;p&gt;hello&lt;/p&gt;
+&lt;h2&gt;wow nice h2 there&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, minima voluptates maxime quaerat qui, cumque temporibus libero nesciunt explicabo quasi eos, fugit voluptatem impedit expedita! Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam excepturi soluta ipsa aspernatur optio eveniet corporis sunt eaque beatae assumenda a ullam aliquid ad.&lt;/p&gt;
+&lt;p&gt;Reprehenderit officia labore debitis quae neque fugiat iste sed, maiores nisi eligendi consequatur nesciunt possimus rem earum quidem inventore architecto praesentium, cum maxime, quaerat ipsam? Ea molestiae consequatur mollitia tempore expedita alias dicta quam tenetur vitae dolor magnam velit quod quisquam explicabo illo, ab eaque molestias reiciendis repellat fugiat culpa optio a earum nisi.&lt;/p&gt;
+&lt;h3&gt;Vero corporis ipsa facere tenetur explicabo&lt;/h3&gt;
+&lt;p&gt;totam expedita delectus reprehenderit est eum. Eius, tenetur praesentium tempore dicta culpa labore sit hic similique at nesciunt temporibus perspiciatis aliquid dolorem esse voluptatem quis, cupiditate, aspernatur illo ipsam.&lt;/p&gt;
+&lt;h4&gt;Deleniti provident nobis&lt;/h4&gt;
+&lt;p&gt;maxime, qui molestias ex recusandae, magni consectetur iure nostrum sequi suscipit harum corrupti autem consequuntur animi veritatis? Eos laudantium quod beatae repudiandae accusamus fuga, adipisci tenetur odio nihil commodi optio ipsam voluptates quam esse reiciendis!&lt;/p&gt;
+&lt;p&gt;Eligendi inventore nesciunt veritatis mollitia cum! Veniam placeat saepe iure ab eius, ipsa quisquam voluptas quod ad libero ipsum vel officiis ullam eum.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My very first post</title>
+		<link href="/posts/firstpost/"/>
+		<updated>2021-03-10T00:00:00Z</updated>
+		<id>/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;hello&lt;/p&gt;
+&lt;h2&gt;wow nice h2 there&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, minima voluptates maxime quaerat qui, cumque temporibus libero nesciunt explicabo quasi eos, fugit voluptatem impedit expedita! Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam excepturi soluta ipsa aspernatur optio eveniet corporis sunt eaque beatae assumenda a ullam aliquid ad.&lt;/p&gt;
+&lt;p&gt;Reprehenderit officia labore debitis quae neque fugiat iste sed, maiores nisi eligendi consequatur nesciunt possimus rem earum quidem inventore architecto praesentium, cum maxime, quaerat ipsam? Ea molestiae consequatur mollitia tempore expedita alias dicta quam tenetur vitae dolor magnam velit quod quisquam explicabo illo, ab eaque molestias reiciendis repellat fugiat culpa optio a earum nisi.&lt;/p&gt;
+&lt;h3&gt;Vero corporis ipsa facere tenetur explicabo&lt;/h3&gt;
+&lt;p&gt;totam expedita delectus reprehenderit est eum. Eius, tenetur praesentium tempore dicta culpa labore sit hic similique at nesciunt temporibus perspiciatis aliquid dolorem esse voluptatem quis, cupiditate, aspernatur illo ipsam.&lt;/p&gt;
+&lt;h4&gt;Deleniti provident nobis&lt;/h4&gt;
+&lt;p&gt;maxime, qui molestias ex recusandae, magni consectetur iure nostrum sequi suscipit harum corrupti autem consequuntur animi veritatis? Eos laudantium quod beatae repudiandae accusamus fuga, adipisci tenetur odio nihil commodi optio ipsam voluptates quam esse reiciendis!&lt;/p&gt;
+&lt;p&gt;Eligendi inventore nesciunt veritatis mollitia cum! Veniam placeat saepe iure ab eius, ipsa quisquam voluptas quod ad libero ipsum vel officiis ullam eum.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

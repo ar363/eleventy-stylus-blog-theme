@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://example.com/posts/firstpost/</loc>
+    <lastmod>2021-03-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/secondpost/</loc>
+    <lastmod>2021-03-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/markdown-syntax/</loc>
+    <lastmod>2021-03-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/placeholder-text/</loc>
+    <lastmod>2021-03-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/another-placeholder-post/</loc>
+    <lastmod>2021-03-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/sixthpost/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/markdown-syntax-two/</loc>
+    <lastmod>2021-03-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/README/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/pages/about/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/markdown/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/text/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/another/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/hello/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/css/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/nice/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/html/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/second/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/wow/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/another-tag/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2021-05-18</lastmod>
+  </url>
+</urlset>
