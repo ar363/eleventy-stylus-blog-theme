@@ -14,7 +14,7 @@ eleventyNavigation:
   <div class="card-grid">
     {% for tag in collections.tagList %}
     <div class="card">
-      <h2 class="card__title"><a href="/tags/{{ tag.tagName | slug }}">{{ tag.tagName }}</a></h2>
+      <h2 class="card__title"><a href="{{ '/tags/' | url }}{{ tag.tagName | slug }}">{{ tag.tagName }}</a></h2>
       <div class="card__subtitle">{{ tag.tagCount }} Posts</div>
     </div>
     {% endfor %}
