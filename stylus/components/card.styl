@@ -8,10 +8,17 @@
   padding 1rem
   border-radius default_radius
   box-shadow:
-    0 0 0 1px rgba(0 0 0 0.08)\,
-    0 2px 2px rgba(0 0 0 0.08)\,
-    0 4px 4px rgba(0 0 0 0.08)\,
-    0 6px 6px rgba(0 0 0 0.08)
+    0 0 0 1px rgba(0 0 0 0.06)\,
+    0 2px 2px rgba(0 0 0 0.04)\,
+    0 4px 4px rgba(0 0 0 0.05)\,
+    0 6px 6px rgba(0 0 0 0.06)
+  
+  body.dark &
+    box-shadow:
+      0 0 0 1px rgba(255 255 255 0.06)\,
+      0 2px 2px rgba(255 255 255 0.04)\,
+      0 4px 4px rgba(255 255 255 0.05)\,
+      0 6px 6px rgba(255 255 255 0.06)
 
 
   &__title
@@ -23,6 +30,9 @@
     margin-top 0
     color lighten(text_color, 20%)
     text_scale_size -1
+
+    body.dark &
+      color darken(text_color_dark, 20%)
   
   &__description
     margin 0

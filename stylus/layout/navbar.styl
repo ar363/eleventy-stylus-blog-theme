@@ -1,6 +1,9 @@
 .navbar
   padding 1rem
   box-shadow 0 0 0 1px rgba(0, 0, 0, 0.08)
+
+  body.dark &
+    box-shadow 0 0 0 1px rgba(255, 255, 255, 0.08)
   
   &__inner
     display flex
@@ -37,6 +40,9 @@
     &:hover
       background-color darken(bg_color, 5%)
 
+      body.dark &
+        background-color lighten(bg_color_dark, 5%)
+
   &__mobile-options
     display flex
     gap 0.25rem
@@ -54,6 +60,9 @@
 
     &:hover
       background-color darken(bg_color, 5%)
+
+      body.dark &
+        background-color lighten(bg_color_dark, 5%)
 
   &__link
     display inline-block
