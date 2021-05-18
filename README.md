@@ -6,7 +6,7 @@ A theme repository that contains a blog built with [Eleventy](https://github.com
 
 ## Features
  - 100% Lighthouse scores
- - Toggleable dark theme
+ - Toggleable dark theme (PS. theme preference is also stored in `localStorage`)
  - Tags as taxonomy
  - Stylus CSS preprocessor
  - Integrated with Eleventy's official [navigation plugin](https://www.11ty.dev/docs/plugins/navigation/)
