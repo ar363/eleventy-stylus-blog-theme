@@ -23,9 +23,9 @@
     function changeDarkToggleBtnIcon () {
       darkToggleButtons.forEach(btn => {
         if (btn.querySelector('img').src.indexOf('/static/img/moon.svg') !== -1) {
-          btn.querySelector('img').src = '/static/img/sun.svg'
+          btn.querySelector('img').src = "{{ '/static/img/sun.svg' | url }}"
         } else {
-          btn.querySelector('img').src = '/static/img/moon.svg'
+          btn.querySelector('img').src = "{{ '/static/img/moon.svg' | url }}"
         }
       })
     }
