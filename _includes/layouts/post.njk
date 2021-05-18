@@ -11,11 +11,11 @@ layout: layouts/base.njk
     <b>Tags: </b>
     {% for tag in tags %}
       {% if tag != 'post' %}
-        <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
+        <a href="{{ '/tags/' | url }}{{ tag | slug }}">{{ tag }}</a>
         {%- if not loop.last %}, {% endif %}
       {% endif %}
     {% endfor %}
   {% endif %}
   <br><br>
-  <a href="/">&larr; Back home</a>
+  <a href="{{ '/' | url }}">&larr; Back home</a>
 </div>
