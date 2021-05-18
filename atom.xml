@@ -3,9 +3,9 @@
 	<title>My Purple Blog</title>
 	<subtitle>Lorem ipsum dolor sit amet consecuteor</subtitle>
 	
-	<link href="/atom.xml" rel="self"/>
+	<link href="/eleventy-stylus-blog-theme/atom.xml" rel="self"/>
 	<link href=""/>
-	<updated>2021-05-18T16:30:22Z</updated>
+	<updated>2021-05-18T16:32:36Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>John Doe</name>
@@ -14,9 +14,9 @@
 	
 	<entry>
 		<title>Markdown Syntax Guide 2</title>
-		<link href="/posts/markdown-syntax-two/"/>
+		<link href="/eleventy-stylus-blog-theme/posts/markdown-syntax-two/"/>
 		<updated>2021-03-24T00:00:00Z</updated>
-		<id>/posts/markdown-syntax-two/</id>
+		<id>/eleventy-stylus-blog-theme/posts/markdown-syntax-two/</id>
 		<content type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Eleventy content files, also it shows whether basic HTML elements are decorated with CSS in a Eleventy theme.&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;h2&gt;Headings&lt;/h2&gt;
@@ -110,9 +110,9 @@
 	
 	<entry>
 		<title>This is my sixth post.</title>
-		<link href="/posts/sixthpost/"/>
+		<link href="/eleventy-stylus-blog-theme/posts/sixthpost/"/>
 		<updated>2021-03-22T00:00:00Z</updated>
-		<id>/posts/sixthpost/</id>
+		<id>/eleventy-stylus-blog-theme/posts/sixthpost/</id>
 		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
 &lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
 &lt;h2&gt;Section Header&lt;/h2&gt;
@@ -122,9 +122,9 @@
 	
 	<entry>
 		<title>Another Placeholder Post</title>
-		<link href="/posts/another-placeholder-post/"/>
+		<link href="/eleventy-stylus-blog-theme/posts/another-placeholder-post/"/>
 		<updated>2021-03-20T00:00:00Z</updated>
-		<id>/posts/another-placeholder-post/</id>
+		<id>/eleventy-stylus-blog-theme/posts/another-placeholder-post/</id>
 		<content type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more--&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
@@ -152,9 +152,9 @@
 	
 	<entry>
 		<title>Placeholder Text</title>
-		<link href="/posts/placeholder-text/"/>
+		<link href="/eleventy-stylus-blog-theme/posts/placeholder-text/"/>
 		<updated>2021-03-19T00:00:00Z</updated>
-		<id>/posts/placeholder-text/</id>
+		<id>/eleventy-stylus-blog-theme/posts/placeholder-text/</id>
 		<content type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more--&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
@@ -182,9 +182,9 @@
 	
 	<entry>
 		<title>Markdown Syntax Guide</title>
-		<link href="/posts/markdown-syntax/"/>
+		<link href="/eleventy-stylus-blog-theme/posts/markdown-syntax/"/>
 		<updated>2021-03-16T00:00:00Z</updated>
-		<id>/posts/markdown-syntax/</id>
+		<id>/eleventy-stylus-blog-theme/posts/markdown-syntax/</id>
 		<content type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Eleventy content files, also it shows whether basic HTML elements are decorated with CSS in a Eleventy theme.&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;h2&gt;Headings&lt;/h2&gt;
@@ -276,9 +276,9 @@
 	
 	<entry>
 		<title>My very second post</title>
-		<link href="/posts/secondpost/"/>
+		<link href="/eleventy-stylus-blog-theme/posts/secondpost/"/>
 		<updated>2021-03-10T00:00:00Z</updated>
-		<id>/posts/secondpost/</id>
+		<id>/eleventy-stylus-blog-theme/posts/secondpost/</id>
 		<content type="html">&lt;p&gt;hello&lt;/p&gt;
 &lt;h2&gt;wow nice h2 there&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, minima voluptates maxime quaerat qui, cumque temporibus libero nesciunt explicabo quasi eos, fugit voluptatem impedit expedita! Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam excepturi soluta ipsa aspernatur optio eveniet corporis sunt eaque beatae assumenda a ullam aliquid ad.&lt;/p&gt;
@@ -293,9 +293,9 @@
 	
 	<entry>
 		<title>My very first post</title>
-		<link href="/posts/firstpost/"/>
+		<link href="/eleventy-stylus-blog-theme/posts/firstpost/"/>
 		<updated>2021-03-10T00:00:00Z</updated>
-		<id>/posts/firstpost/</id>
+		<id>/eleventy-stylus-blog-theme/posts/firstpost/</id>
 		<content type="html">&lt;p&gt;hello&lt;/p&gt;
 &lt;h2&gt;wow nice h2 there&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, minima voluptates maxime quaerat qui, cumque temporibus libero nesciunt explicabo quasi eos, fugit voluptatem impedit expedita! Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam excepturi soluta ipsa aspernatur optio eveniet corporis sunt eaque beatae assumenda a ullam aliquid ad.&lt;/p&gt;

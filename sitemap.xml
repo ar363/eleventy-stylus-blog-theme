@@ -2,107 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://example.com/posts/firstpost/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/posts/firstpost/</loc>
     <lastmod>2021-03-10</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/secondpost/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/posts/secondpost/</loc>
     <lastmod>2021-03-10</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/markdown-syntax/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/posts/markdown-syntax/</loc>
     <lastmod>2021-03-16</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/placeholder-text/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/posts/placeholder-text/</loc>
     <lastmod>2021-03-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/another-placeholder-post/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/posts/another-placeholder-post/</loc>
     <lastmod>2021-03-20</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/sixthpost/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/posts/sixthpost/</loc>
     <lastmod>2021-03-22</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/markdown-syntax-two/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/posts/markdown-syntax-two/</loc>
     <lastmod>2021-03-24</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/README/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/README/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/pages/about/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/pages/about/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/markdown/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/markdown/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/text/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/text/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/another/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/another/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/hello/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/hello/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/css/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/css/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/nice/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/nice/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/html/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/html/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/second/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/second/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/wow/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/wow/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/another-tag/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/another-tag/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/</loc>
     <lastmod>2021-05-18</lastmod>
   </url>
 </urlset>
