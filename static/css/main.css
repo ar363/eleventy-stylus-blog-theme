@@ -189,6 +189,9 @@ body.dark .navbar__mobile-link:hover {
 body.dark .navbar__button:hover {
   background-color: #3d3d3d;
 }
+body.dark .navbar__hamburger > svg {
+  fill: #fff;
+}
 .navbar__link {
   display: inline-block;
   padding: 0.75rem;
