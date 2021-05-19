@@ -149,7 +149,13 @@
       })
     }
 
-    if (localStorage.prefsDark === 'true') {
+    if (
+      localStorage.prefsDark === 'true' || 
+      (
+        window.matchMedia && 
+        window.matchMedia('(prefers-color-scheme: dark)').matches && 
+        localStorage.prefsDark !== 'false')
+      ) {
       document.body.classList.add('dark')
       changeDarkToggleBtnIcon()
     }
