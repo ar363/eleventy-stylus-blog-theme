@@ -1,3 +1,3 @@
 # The 8 bits of happiness
 
-[press here](pcnoic.github.io/blog)
+[press here](https://pcnoic.github.io/the-8-bits-of-happiness)
