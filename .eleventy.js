@@ -3,7 +3,6 @@ const navigationPlugin = require('@11ty/eleventy-navigation')
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
 
 module.exports = (config) => {
-  config.pathPrefix('/the-8-bits-of-happiness')
   config.addPlugin(navigationPlugin);
   config.addPlugin(rssPlugin);
 
