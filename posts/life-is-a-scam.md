@@ -14,7 +14,7 @@ Let's start by defining a universally acceptable scam.
 
 ![](https://img.datawrapper.de/UxUUj/full.png)
 
-The US health system is a scam (and health systems in general). Health expenditures of the average American citizen have gone up 5x in the last 50 years but the lifespan of Americans has essentially remained the same and is even declining in the past 4 years. 
+The US health system is a scam (and health systems in general). Health expenditures of the average American citizen have gone up 5x in the last 50 years but the lifespan of Americans has essentially remained the same and has even been declining in the past 4 years. 
 
 ![](https://i.imgur.com/kG5SXRI.png)
 
