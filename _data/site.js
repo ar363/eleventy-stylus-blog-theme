@@ -15,6 +15,6 @@ module.exports = {
   },
   hero: { // used in hero section of main page ie. index.html.njk
     title: "welcome stranger...",
-    description: "here you will find random thoughs about specific topics"
+    description: "here you will find random thoughts about specific topics"
   }
 }
