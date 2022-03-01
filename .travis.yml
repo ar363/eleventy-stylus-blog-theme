@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 14
+  - 16
 before_script:
   - yarn
 script: yarn build:stylus && eleventy --pathprefix=eleventy-stylus-blog-theme
