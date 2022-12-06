@@ -15,7 +15,7 @@
     "watch:stylus": "stylus --watch ./stylus/ --out ./static/css/",
     "build:11ty": "eleventy",
     "watch:11ty": "eleventy --serve",
-    "build": "yarn build:stylus && yarn build:11ty",
-    "dev": "concurrently -n stylus,11ty \"yarn watch:stylus\" \"yarn watch:11ty\""
+    "build": "npm run build:stylus && npm run build:11ty",
+    "dev": "concurrently -n stylus,11ty \"npm:watch:stylus\" \"npm:watch:11ty\""
   }
 }

@@ -41,9 +41,6 @@ Get your site up and running with a few clicks
 ## Prerequisites for local development
 [Node.js 8 or above](https://nodejs.org/en/)
 
-[Yarn](https://yarnpkg.com/) package manager
-
-
 ## Getting started locally
 
 1. Clone this repo
@@ -56,14 +53,14 @@ git clone https://github.com/ar363/eleventy-stylus-blog-theme my-blog
 cd my-blog
 ```
 
-3. Install dependencies with [yarn](https://yarnpkg.com/)
+3. Install dependencies
 ```
-yarn
+npm i
 ```
 4. Edit `_data/site.js` according to your site preferences
 
 5. Also optionally modify `stylus/abstracts/variables.styl` according to your preference
 
-To watch for changes in Eleventy and Stylus, use `yarn dev`
+To watch for changes in Eleventy and Stylus, use `npm run dev`
 
-To build without watching for changes, use `yarn build`
+To build without watching for changes, use `npm run build`
