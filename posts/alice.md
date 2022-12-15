@@ -13,7 +13,7 @@ Alice was becoming tired of watching that ridiculous coding video her sister tex
 
 "Had enough!", she exclaimed.
 
-She was working as a software engineer for the better part of the last year and not once was it required that she inverted a binary tree. She had never used a binary tree before, let alone invert it.
+She was working as a programmer for the better part of the last year and not once was it required that she inverted a binary tree. She had never used a binary tree before, let alone invert it.
 
 So she was considering in her mind, whether the pleasure of building a compiler like the one she studied in her operating systems class in university would be worth the trouble of getting up and picking up her old notebooks when a strange notification on her laptop's screen appeared in her peripheral vision.
 
