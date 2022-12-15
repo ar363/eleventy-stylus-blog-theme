@@ -6,6 +6,7 @@ tags:
   - story-telling
 ---
 
+![Alice starting the whole in the ground.](../static/img/alice.png)
 # Down the rabbit hole
 
 Alice was becoming tired of watching that ridiculous coding video her sister texted her that morning: inverting a binary tree.
