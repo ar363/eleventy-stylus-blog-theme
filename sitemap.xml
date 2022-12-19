@@ -62,22 +62,22 @@
   </url>
   
   <url>
-    <loc>https://example.com/eleventy-stylus-blog-theme/tags/hello/</loc>
-    <lastmod>2022-12-19</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/eleventy-stylus-blog-theme/tags/css/</loc>
     <lastmod>2022-12-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/eleventy-stylus-blog-theme/tags/nice/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/html/</loc>
     <lastmod>2022-12-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/eleventy-stylus-blog-theme/tags/html/</loc>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/hello/</loc>
+    <lastmod>2022-12-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/eleventy-stylus-blog-theme/tags/nice/</loc>
     <lastmod>2022-12-19</lastmod>
   </url>
   
