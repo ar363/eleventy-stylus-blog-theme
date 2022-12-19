@@ -6,7 +6,7 @@
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "concurrently": "^6.0.0",
+    "concurrently": "^7.6.0",
     "luxon": "^1.26.0",
     "stylus": "^0.59.0"
   },
