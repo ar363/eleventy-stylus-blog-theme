@@ -64,3 +64,6 @@ npm i
 To watch for changes in Eleventy and Stylus, use `npm run dev`
 
 To build without watching for changes, use `npm run build`
+
+[static website forms](https://fabform.io)
+You can add a fabform static website form to this website to save form submission
