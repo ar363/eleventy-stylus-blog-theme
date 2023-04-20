@@ -1,5 +1,5 @@
 ---
-title: The Futility of Ethical Consumerism in a Monopoly Capitalist Society 
+title: The Fallacy of Shopping as Politics 
 date: 2023-04-20
 description: The Futility of Ethical Consumerism in a Monopoly Capitalist Society
 tags:
