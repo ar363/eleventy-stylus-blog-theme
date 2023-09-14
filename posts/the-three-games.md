@@ -3,7 +3,9 @@ title: The three games
 date: 2023-09-14
 description: The Three Games of Life and How to Play in a Finite Sandbox
 tags:
-  - life, capitalism, survival
+  - life
+  - capitalism
+  - survival
 ---
 In about 50 years, or maybe less, we'll probably find a way to automate love, outsource wisdom, and even find a substitute for nature. What would be left for you to do then? Barring existential risks, these are facts. So what game are you playing at?
 
