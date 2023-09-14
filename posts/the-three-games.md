@@ -1,7 +1,7 @@
 ---
 title: The three games
 date: 2023-09-14
-description: The Three Games of Life: How to Play in a Finite Sandbox
+description: The Three Games of Life and How to Play in a Finite Sandbox
 tags:
   - life, capitalism, survival
 ---
